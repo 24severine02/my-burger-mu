@@ -5,7 +5,7 @@ interface HomePageProps {
   onNavigate: (page: string) => void;
 }
 
-const HERO_IMAGE = "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1600&h=900&fit=crop&auto=format";
+const HERO_IMAGE = "/hero.jpg";
 const BEST_SELLER_IMAGES = [
   "/2-tower.jpg",
   "/crispy-calamari.jpg",
@@ -53,7 +53,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         <div style={{
           position: "absolute",
           inset: 0,
-          background: "linear-gradient(135deg, rgba(26,26,26,0.92) 0%, rgba(26,26,26,0.6) 60%, rgba(26,26,26,0.4) 100%)",
+          background: "linear-gradient(135deg, rgba(26,26,26,0.99) 0%, rgba(26,26,26,0.8) 60%, rgba(26,26,26,0.7) 100%)",
         }} />
 
         {/* Content */}
